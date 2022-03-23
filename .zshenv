@@ -28,7 +28,7 @@ path /sbin
 path /usr/bin
 path /usr/local/bin
 path ~/bin
-# in case of weird paths problems: check /etc/profile on OSX not start the path helper
+# in case of weird paths problems: check /etc/zprofile on OSX and do not start the path_helper
 
 # Ensure that a non-login, non-interactive shell has a defined environment.
 if [[ "$SHLVL" -eq 1 && ! -o LOGIN ]]; then
